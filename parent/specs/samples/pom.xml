@@ -27,22 +27,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>temp</groupId>
-				<artifactId>module</artifactId>
-				<version>${sample-version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-	<profiles>
-		<profile>
-			<id>release-profile</id>
-			<properties>
-				<sample-version>0.0.1</sample-version>
-			</properties>
-		</profile>
-
-	</profiles>
 </project>
