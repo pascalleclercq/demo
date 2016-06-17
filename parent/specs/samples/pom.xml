@@ -5,7 +5,7 @@
 		<groupId>temp</groupId>
 		<artifactId>parent</artifactId>
 		<version>0.0.2-SNAPSHOT</version>
-		<relativePath/>
+		<relativePath>../..</relativePath>
 	</parent>
 	<artifactId>samples</artifactId>
 	<packaging>pom</packaging>
