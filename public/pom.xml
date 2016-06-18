@@ -3,7 +3,7 @@
   <parent>
     <groupId>temp</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
   </parent>
   <artifactId>public</artifactId>
   <packaging>pom</packaging>

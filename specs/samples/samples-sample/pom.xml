@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>temp</groupId>
 		<artifactId>samples</artifactId>
-		<version>0.0.4-SNAPSHOT</version>
+		<version>0.0.4</version>
 	</parent>
 	<artifactId>samples-sample</artifactId>
 	<dependencies>
