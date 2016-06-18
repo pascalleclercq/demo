@@ -2,15 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>temp</groupId>
-		<artifactId>samples</artifactId>
-		<version>0.0.3</version>
+		<artifactId>parent</artifactId>
+		<version>0.0.4-SNAPSHOT</version>
 	</parent>
-	<artifactId>samples-sample</artifactId>
-	<dependencies>
-		<dependency>
-			<groupId>temp</groupId>
-			<artifactId>module</artifactId>
-			<version>${sample-version}</version>
-		</dependency>
-	</dependencies>
+	<artifactId>specs</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>samples</module>
+	</modules>
 </project>
