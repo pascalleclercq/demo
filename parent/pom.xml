@@ -6,7 +6,7 @@
 	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<scm>
-		<connection>scm:git:file://Users/pascalleclercq/git/parent/parent/</connection>
+		<connection>scm:git:file:/Users/pascalleclercq/git/parent/parent/</connection>
 	</scm>
 	<build>
 		<plugins>
