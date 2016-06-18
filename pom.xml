@@ -2,11 +2,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>temp</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<scm>
-		<connection>scm:git:/Users/pascalleclercq/git/parent/parent/</connection>
-	  <tag>parent-0.0.3</tag>
+		<connection>scm:git:https://github.com/pascalleclercq/demo.git</connection>
   </scm>
 	<build>
 		<plugins>
