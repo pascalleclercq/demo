@@ -31,5 +31,17 @@
 		<module>specs</module>
 		<module>public</module>
 	</modules>
+				<distributionManagement>
+				<repository>
+					<id>atomikos.website.maven.repo</id>
+					<url>file://${user.home}/.m2/repository</url>
+				</repository>
+				<snapshotRepository>
+					<id>internal.snapshot.repo</id>
+					<name>Atomikos Internal Snapshot Repository</name>
+					<url>file://${user.home}/.m2/repository</url>
+				</snapshotRepository>
+			</distributionManagement>
+	
 
 </project>
