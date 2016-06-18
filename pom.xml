@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>temp</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<scm>
 		<connection>scm:git:https://github.com/pascalleclercq/demo.git</connection>
-  </scm>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
@@ -31,17 +32,17 @@
 		<module>specs</module>
 		<module>public</module>
 	</modules>
-				<distributionManagement>
-				<repository>
-					<id>atomikos.website.maven.repo</id>
-					<url>file://${user.home}/.m2/repository</url>
-				</repository>
-				<snapshotRepository>
-					<id>internal.snapshot.repo</id>
-					<name>Atomikos Internal Snapshot Repository</name>
-					<url>file://${user.home}/.m2/repository</url>
-				</snapshotRepository>
-			</distributionManagement>
-	
+	<distributionManagement>
+		<repository>
+			<id>atomikos.website.maven.repo</id>
+			<url>file://${user.home}/.m2/repository</url>
+		</repository>
+		<snapshotRepository>
+			<id>internal.snapshot.repo</id>
+			<name>Atomikos Internal Snapshot Repository</name>
+			<url>file://${user.home}/.m2/repository</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 
 </project>
