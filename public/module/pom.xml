@@ -3,7 +3,7 @@
   <parent>
     <groupId>temp</groupId>
     <artifactId>public</artifactId>
-    <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.6</version>
   </parent>
   <artifactId>module</artifactId>
 </project>
